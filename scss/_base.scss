@@ -1,0 +1,302 @@
+h2 {
+  font-family: 'Josefin Sans';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  text-transform: uppercase;
+  margin: 0;
+  @media screen and (max-width:375px) {
+    font-size: 32px;
+  } 
+}
+.h2-style {
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0.1em;
+}
+h4 {
+  font-family: 'Josefin Sans';
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.31em;
+  margin-top: 8px;
+  @media screen and (max-width:375px) {
+    font-size: 15px;
+  } 
+}
+.h4-style {
+  font-family: 'Josefin Sans';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: start;
+}
+h5 {
+  font-family: 'Aleo';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: capitalize;
+  margin: 0 0 24px;
+}
+.h5-style {
+  text-align: center;
+  margin: 0;
+  @media screen and (max-width:920px){
+    font-size: 26px;
+  }
+}
+a {
+  text-decoration: none;
+  font-family: 'Aleo';
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  @media screen and (max-width:768px) {
+    font-size: 9px;
+  }
+}
+p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+}
+.section-1 {
+  max-width: 100%;
+  height: 700px;
+  background:url(/images/WhyBackground.png)no-repeat  center/cover;
+  @media screen and (max-width:1024px) {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width:1024px) {
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    
+
+  }
+}
+.blok-text {
+  max-width: 648px;
+  height: 324px;
+  padding: 190px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  @media screen and (max-width:768px) {
+    padding-top: 60px;
+  }
+}
+.blok-foto {
+  width: 424px;
+  height: 456px;
+  margin: 190px 10px 0;
+  position: relative;
+  @media screen and (max-width:375px) {
+    margin-top: 220px;
+    max-width: 250px;
+    height: 350px;
+  }
+}
+.foto-l {
+  position: absolute;
+  top: 0;
+  left: 0;
+  @media screen and (max-width:375px) {
+    left: 0px;
+    width: 250px;
+  }
+ }
+ .foto-r {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  @media screen and (max-width:412px) {
+    left: 0;
+  }
+  @media screen and (max-width:375px) {
+    width: 250px;
+  }
+  }
+  .icons {
+    width: 100%;
+    height: 300px;
+    background: (#333333) no-repeat  center/cover;
+    @media screen and (max-width:920px){
+      height: 100%;
+    }
+  }
+  .container-icons {
+    width: 1320px;
+    padding: 100px 0 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    @media screen and (max-width:1320px) {
+      width: 100%;
+        @media screen and (max-width:920px){
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          padding: 40px 0;
+          
+          
+        }
+      }
+    }
+  
+  .icon-box {
+    width: 424px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media screen and (max-width:920px){
+      width: 300px;
+      height: 100px;
+      margin-top: 20px;
+    }
+  }
+  .icons-search {
+    @media screen and (max-width:920px){
+    width: 38px;
+    height: 38px;
+    margin: 0 auto;
+  }
+}
+.line {
+  position: absolute;
+  max-width: 872px;
+  top: 20px;
+  left: 220px;
+  @media screen and (max-width:1240px){
+    display: none;
+  }
+}
+.blok-1 {
+  background: url(/images/house.png) no-repeat  center/cover;
+  max-width: 100%;
+  height: 684px;
+  display: flex;
+  justify-content: flex-star;
+  align-items: center;
+  padding-left: 11%;
+  
+  @media screen and (max-width:920px){
+    padding: 15px;
+  }
+  .book-blok-1 {
+    background: rgba(35, 35, 35, 0.9);
+    min-height: 344px;
+    max-width: 648px;
+    padding: 44px 32px;
+    margin-top: 70px;
+    @media screen and (max-width:920px){
+      padding: 15px;
+    } 
+    
+  }
+}
+.blok-2 {
+  background: url(/images/sea.png) no-repeat  center/cover;
+  max-width: 100%;
+  height: 684px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 11%;
+  @media screen and (max-width:920px){
+    padding: 15px;
+  } 
+  .book-blok-2 {
+    background: rgba(35, 35, 35, 0.9);
+    min-height: 344px;
+    max-width: 648px;
+    padding: 44px 32px;
+    @media screen and (max-width:920px){
+      padding: 15px;
+    } 
+  }
+}
+.section-3 {
+  width: 100%;
+  height: 680px;
+  background: url(/images//BG.png) no-repeat center/cover;
+  margin: 0 auto;
+  padding-top: 120px;
+  @media screen and (max-width:1024px){
+    height: 100%;
+  }
+}
+.blok-man {
+  max-width: 1320px;
+  margin: 60px auto 0;
+  display: flex;
+  padding: 0 15px;
+  @media screen and (max-width:1024px){
+  flex-direction: column;
+  }
+}
+.text-description {
+  background: #333333;
+  padding: 48px 60px;
+}
+.footer-bg {
+  width: 100%;
+  height: 270px;
+  background-color: black;
+}
+.box-footer {
+  max-width: 300px;
+  min-height: 150px;
+  margin: 0px auto;
+  padding: 80px 15px;
+}
+.text-titel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.icons-box {
+  width: 275px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  .icon-style {
+    width: 40px;
+    height: 36px;
+    border-radius: 3px;
+    padding-left: 3px;
+    fill:rgb(255, 255, 255); 
+  }
+}
+.icon-style:hover {
+  background: blue;
+  fill: rgb(0, 0, 0);
+}
+.icon-quote {
+ width: 20px;
+ height: 20px;
+}
+.icon-quote:hover {
+  fill:blue;
+ }

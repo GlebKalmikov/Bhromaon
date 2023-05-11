@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Josefin Sans';
+}
+.header {
+    max-width: 100%;
+    height: 862px;
+    background:url(/images/HeaderBackground.png) no-repeat  center/cover;
+    margin: 0 auto;
+}
+.navigation {
+  max-width: 100%;
+  height: 84px;
+  background:#5373FD;
+  margin: 0 auto;
+  padding-top:32px;
+  .nav {
+    max-width: 1320px;
+    height: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width:768px) {
+      justify-content: space-evenly;
+    }
+    
+  }
+}
+.logo {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  padding: 0 10px;
+    @media screen and (max-width:564px) {
+      display: none;
+    }
+}
+  .logo-p {
+    margin: 0 0 8px;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }
+
+.menu {
+    max-width: 575px;
+    display: flex;
+    gap: 30px;
+    padding-right: 15px;
+    @media screen and (max-width:768px) {
+      gap: 20px;
+      padding: 0 5px;
+      @media screen and (max-width:375px) {
+        gap: 13px;
+      }
+    }
+    }
+
+
+.box-form {
+    padding: 290px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-box {
+  position: relative;
+  background: #FFFFFF;
+  width: 647px;
+  height: 60px;
+  @media screen and (max-width:768px) {
+    width: 370px;
+    height: 40px;
+    @media screen and (max-width:375px) {
+      width: 300px;
+      height: 40px;
+      
+    } 
+  } 
+
+}
+.search-form {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height:100%;
+ .input {
+  border: none;
+  width: 78%;
+  height: 100%;
+  padding-left: 36px;
+  @media screen and (max-width:768px) {
+    padding-left: 10px;
+  } 
+
+ }
+ .button {
+  background: #5373FD;
+  font-family: 'Aleo';
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 20px;
+  width: 139px;
+  height: 52px;
+  border: none;
+  @media screen and (max-width:768px) {
+   height: 40px;
+   width: 30%;
+   font-size: 11px;
+  } 
+}
+
+}
+.button:active {
+  background: #6273f4;
+  color: black;
+}
+::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  @media screen and (max-width:768px) {
+    font-size: 0.7em;
+    @media screen and (max-width:375px) {
+      font-size: 0.6em;
+    }
+  }
+
+}
+.button:hover {
+  background: #7f8be4;
+  transition-duration: 0.5s;
+}
+.btn-styles {
+  background: #5373FD;
+  font-family: 'Aleo';
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 20px;
+  width: 213px;
+  height: 60px;
+  border: none;
+  
+}
