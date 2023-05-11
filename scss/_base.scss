@@ -72,7 +72,7 @@ p {
 .section-1 {
   max-width: 100%;
   height: 700px;
-  background:url(/images/WhyBackground.png)no-repeat  center/cover;
+  background:url(../images/WhyBackground.png)no-repeat  center/cover;
   @media screen and (max-width:1024px) {
     height: 100%;
     padding-bottom: 20px;
@@ -165,7 +165,7 @@ p {
   }
 }
 .blok-1 {
-  background: url(/images/house.png) no-repeat  center/cover;
+  background: url(../images/house.png) no-repeat  center/cover;
   max-width: 100%;
   height: 684px;
   display: flex;
@@ -188,7 +188,7 @@ p {
   }
 }
 .blok-2 {
-  background: url(/images/sea.png) no-repeat  center/cover;
+  background: url(../images/sea.png) no-repeat  center/cover;
   max-width: 100%;
   height: 684px;
   display: flex;
@@ -211,7 +211,7 @@ p {
 .section-3 {
   width: 100%;
   height: 680px;
-  background: url(/images//BG.png) no-repeat center/cover;
+  background: url(../images//BG.png) no-repeat center/cover;
   margin: 0 auto;
   padding-top: 120px;
   @media screen and (max-width:1024px){
